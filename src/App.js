@@ -58,6 +58,9 @@ function App() {
 
   return (
     <>
+    
+
+    <div className="box">
       <h1>Currency Exchange </h1> 
       <CurrencyRow 
         currencyOptions={currencyOptions}
@@ -75,6 +78,9 @@ function App() {
         onChangeAmount = {handleToAmountChange}
         amount={toAmount}
       />
+      </div>
+
+      <footer>Devloped by Jaland Swain</footer>
     </>
   );
 }
