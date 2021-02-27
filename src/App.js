@@ -61,7 +61,7 @@ function App() {
     
 
     <div className="box">
-      <h1>Currency Exchange </h1> 
+      <h1> Currency Exchange </h1> 
       <CurrencyRow 
         currencyOptions={currencyOptions}
         selectedCurrency ={fromCurrency}
@@ -80,7 +80,7 @@ function App() {
       />
       </div>
 
-      <footer>Devloped by Jaland Swain</footer>
+      <footer>Developed by Jaland Swain</footer>
     </>
   );
 }
